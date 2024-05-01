@@ -1,6 +1,8 @@
 {
   "applicationId" : "edeafd49-65e5-4a10-8952-e59bb2d6f69f",
   "applicationName" : "Validation Test",
+  "defaultBranch": "develop",
+  "gitUrl": "https://github.com/ashwinp88/validation-test",
   "icon" : "LogoIconOnlyTerritoriesComponent",
   "sections" : [ {
     "name" : "Empty",
