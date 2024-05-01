@@ -1,0 +1,80 @@
+{
+  "pageDefinitionId" : "5ddb86a5-604c-497c-b1e4-597fa61842e1",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_7" : {
+            "type" : "input",
+            "controlId" : "73697064-c98a-4738-996e-14b3ec5a0092",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "btn_event",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "73697064-c98a-4738-996e-14b3ec5a0092",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ "customValidation" ],
+              "preHandlerArgs" : [ {
+                "validationXsql" : "CountMatches(:v_label, ' ') <= 0",
+                "validationErrorMessage" : "Custom validation"
+              } ]
+            } ],
+            "variables" : [ {
+              "name" : "v_label"
+            } ],
+            "labelText" : "Label",
+            "labelValue" : "",
+            "isMultiLine" : false,
+            "isDisabled" : false,
+            "layoutSize" : null,
+            "useEnterBroadcast" : false,
+            "shouldRenderHidden" : false
+          },
+          "control_8" : {
+            "type" : "button",
+            "controlId" : "347680ff-2e58-4ab1-a2d4-30112ad8714e",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "btn_event",
+              "eventSelection" : "CREATE_EVENT",
+              "broadcastArgs" : {
+                "validationXsql" : ""
+              },
+              "id" : "347680ff-2e58-4ab1-a2d4-30112ad8714e",
+              "handlers" : [ ],
+              "handlerArgs" : [ ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "controlData" : "Button",
+            "layoutSize" : null,
+            "buttonColorType" : "primary",
+            "icon" : "",
+            "iconPosition" : "left",
+            "shouldRenderHidden" : false
+          }
+        }
+      }
+    }
+  },
+  "title" : "Nothing",
+  "versionName" : "1.0"
+}

@@ -1,0 +1,17 @@
+{
+  "applicationId" : "edeafd49-65e5-4a10-8952-e59bb2d6f69f",
+  "applicationName" : "Validation Test",
+  "icon" : "LogoIconOnlyTerritoriesComponent",
+  "sections" : [ {
+    "name" : "Empty",
+    "icon" : "Alert Circle",
+    "pageDefinitionId" : "5ddb86a5-604c-497c-b1e4-597fa61842e1",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "applicationI18nFiles" : [ ]
+}
