@@ -1,8 +1,10 @@
 {
   "application" : "app/Application.json",
-  "queries" : null,
-  "workflows" : null,
+  "queries" : [],
+  "workflows" : [],
   "pageDefinitions" : [ "app/5ddb86a5-604c-497c-b1e4-597fa61842e1.json" ],
-  "policySets" : null,
-  "tables" : null
+  "policySets" : [],
+  "tables" : {
+      "schemas" : []
+  }
 }
